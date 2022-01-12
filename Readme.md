@@ -1,4 +1,4 @@
-## New Years Countdown OBS Plugin
+# New Years Countdown OBS Plugin
 
 A simple html countdown that streamers can use to ring in the new year. I may add customization options for this, but no further plans at the moment.
 
@@ -9,6 +9,9 @@ To use it with obs follow these instructions:
 4. tweak the date to countdown to by adjusting the `countdown` URL parameter
 5. tweak the text displayed above the countdown using the `text` URL parameter
 
+## License
+
+```
     Copyright (C) 2021 D Brinson
 
     This program is free software: you can redistribute it and/or modify
@@ -23,3 +26,4 @@ To use it with obs follow these instructions:
 
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
+```
