@@ -1,0 +1,29 @@
+body {
+    background-color: rgba(0,0,0,0.0);
+}
+@font-face {
+    font-family: customFont;
+    src: url('./font.ttf');
+}
+div {
+    filter: drop-shadow(1px 1px 0.2rem black);
+    color: orchid;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Consolas', customFont, 'Source Code Pro', sans-serif;
+
+}
+
+#text {
+    transform: scale(1, 0.8);
+    font-size: 1.8em;
+}
+
+#countdown {
+    font-size: 2em;
+    font-family:  customFont, 'Source Code Pro', 'Consolas', sans-serif;
+}
+
+#buttons {
+    display: none;
+}
